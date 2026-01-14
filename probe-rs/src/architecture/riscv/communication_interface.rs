@@ -162,6 +162,7 @@ impl From<u8> for DebugModuleVersion {
             0 => Self::NoModule,
             1 => Self::Version0_11,
             2 => Self::Version0_13,
+            3 => Self::Version0_13,
             15 => Self::NonConforming,
             other => Self::Unknown(other),
         }
